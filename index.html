@@ -3,19 +3,17 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="pt-br" />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
-    <script src="app.js"></script>
+  
+    <script src="js/app.js"></script>
     <title>Formulario</title>
     <link rel="stylesheet" href="css/style.css">
-    <img class="logo" src="img/logo.jpg" width="100px " height="90px"> 
 
   </head>
   
-  <body ng-app="App">
+  <body>
 
       <div id="main-container">
+        <img class="logo" src="img/logo.jpg"> 
           <hi>Cadastro de Cursos</hi>
           <form id="register-form">
             <div class="half-box">
@@ -47,13 +45,13 @@
                 <input type="submit" id="btn-submit" value="Cadastrar">
               </div>
 
-              <hi>Lista de Cursos</hi>
-              </div>
+              <h1>Lista de Cursos</h1>
+
 
               <form>
                 <input type="search" placeholder="buscar por nomes...">
               </form>
-             </div>
+             
 
              <table border="1">
                   <tr>
@@ -83,6 +81,7 @@
                     <td>01/01/2021</td>
                   </tr>
              </table>
+      </div>           
   </body>
 
 </html>
