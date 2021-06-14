@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="pt-br" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <img class="logo" src="img/logo.jpg" width="100px " height="90px"> 
+
+  </head>
+  
+  <body ng-app="App">
+
+      <div id="main-container">
+          <hi>Cadastro de Cursos</hi>
+          <form id="register-form">
+            <div class="half-box">
+              <label for="Nome">Nome</label>
+              <input type="text" name="name" id="Nome">
+            </div>
+
+            <div class="half-box">
+              <label for="Nome">Data de Início</label>
+              <input type="date" name="Data de Início" id="Data de Início" placeholder="dd/mm/aaaa">
+            </div>
+
+            <div class="half-box">
+              <label for="Nome">Data do Fim</label>
+              <input type="date" name="Data do Fim" id="Data do Fim" placeholder="dd/mm/aaaa">
+            </div>
+
+            <div class="half-box">
+              <label for="Nome">Duração (Semanas)</label>
+              <input type="text" name="Duração (Semanas)" id="Duração (Semanas)">
+            </div>
+
+              <div class="half-box">
+                <label for="Nome">Descrição</label>
+                <input type="text" name="Descrição" id="Descrição">
+              </div>
+
+              <div class="full-box">
+                <input type="submit" id="btn-submit" value="Cadastrar">
+              </div>
+
+              <hi>Lista de Cursos</hi>
+              </div>
+
+              <form>
+                <input type="search" placeholder="buscar por nomes...">
+              </form>
+             </div>
+
+             <table border="1">
+                  <tr>
+                      <th>Nome</th>
+                      <th>Duração</th>
+                      <th>Data de Início</th>
+                      <th>data de Término</th>
+                  </tr>
+                  <tr>
+                    <td>Primeiro Curso</td>
+                    <td>52</td>
+                    <td>01/01/2021</td>
+                    <td>01/01/2021</td>
+                  </tr>
+
+                  <tr>
+                    <td>Segundo Curso</td>
+                    <td>52</td>
+                    <td>01/01/2021</td>
+                    <td>01/01/2021</td>
+                  </tr>
+
+                  <tr>
+                    <td>Primeiro Curso</td>
+                    <td>52</td>
+                    <td>01/01/2021</td>
+                    <td>01/01/2021</td>
+                  </tr>
+             </table>
+  </body>
+
+</html>
