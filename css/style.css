@@ -1,22 +1,95 @@
-#main-container {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(49, 49, 48);
+  font-family: "Sansita Swashed", cursive;
 }
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.center {
+  padding: 35px 35px;
+  background: #fff;
+  border-radius: 10px;
+  width: 600px;
+  height: 100%;
 
-#main-container img {
+}
+.center img {
+	width: 100%;
 	height: 150px;
-	width: 200px;
-	margin-top: 20px;
 	border-radius: 5px;
+	margin-top: 30px;
+  }
+.center h1 {
+  font-size: 1.5em;
+  color: #000;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.center .inputbox {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+.center .inputbox input {
+  width: 100%;
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
 }
 
-.half-box {
-	margin-top: 20px;
+.center .inputbox span {
+  position: absolute;
+  top: -20px;
+  font-size: 0.8em;
+  transition: 0.6s;
+  font-family: sans-serif;
 }
-
-.half-box input {
-	width: 300px;
-	height: 20px;
+.center .inputbox [type="button"] {
+  width: 40%;
+  background: rgb(16, 34, 49);
+  color: #fff;
+  border: #fff;
+}
+#descricao{
+	height: 100px;
+}
+#cadastrar{
+	margin-top: 50px;
+}
+.main-containe-form{
+	padding: 35px 35px;
+	background: #fff;
+	border-radius: 10px;
+	width: 600px;
+	height: 60%;
+    margin: -35px;
+	margin-top: -60px;
+}
+.main-containe-form h1{
+	margin-top: 90px;
+}
+table{
+	width: 100%;
+	height: 100px;
+	font-size: 0.8em;
+	text-align: left;
 }
